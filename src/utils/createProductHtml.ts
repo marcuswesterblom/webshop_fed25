@@ -38,7 +38,7 @@ function createProductCard(coffee: Coffee): HTMLElement {
             </div>
             <button class="addToCart">Lägg i varukorgen
             <span class="addToCartIcon">
-  <img src="/public/assets/icons/icon-cart.svg" alt="a cart icon" />
+  <img src="/assets/icons/icon-cart.svg" alt="a cart icon" />
 </span></button>
     </div>`;
 
