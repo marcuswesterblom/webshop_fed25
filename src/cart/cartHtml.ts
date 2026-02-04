@@ -95,7 +95,7 @@ export const cartHtml = (cartItems: CartItem[]) => {
     cartTitle.textContent = "Varukorg";
     totalText.textContent = "Totalt";
     momsText.textContent = "(inkl. moms)";
-    checkoutLink.href = "checkout";
+    checkoutLink.href = "checkout.html";
     checkoutLink.textContent = "Till kassan";
 
     // Append spans to container close and heading + close container to the cart header

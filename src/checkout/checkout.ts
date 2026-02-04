@@ -23,15 +23,19 @@ export const checkout = () => {
     // Listen for the form submit event
     checkoutForm.addEventListener("submit", (e) => {
         e.preventDefault(); // Prevent page reload
-
+        const darkOverlay = document.getElementById("darkOverlay");
         // Get the values from the input fields firtName and email
         const firstName = (document.getElementById("firstName") as HTMLInputElement).value;
         const email = (document.getElementById("email") as HTMLInputElement).value;
         
         // Create and display the order confirmation HTML element
         const orderConfirmation = confirmationHtml(firstName, email, cartItems);
+        darkOverlay?.classList.add("show");
         // Click on the confirmation to remove it
-        orderConfirmation.addEventListener("click", () => orderConfirmation.remove());
+        darkOverlay?.addEventListener("click", () => {
+            darkOverlay.classList.remove("show");
+            orderConfirmation.remove()
+        });
 
         // Empties cart in localstorage
         localStorage.removeItem("cart");
