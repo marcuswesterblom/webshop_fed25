@@ -2,7 +2,21 @@
 
 This is a **Webshop application** built as part of a school assignment in the **Frontend Developer 25 (FED25)** program.
 
-The goal of the project was to practice core frontend skills such as **TypeScript, DOM manipulation, event handling, responsive layouts, and interactive UI components**, using modern tooling.
+The goal of the project was to practice core frontend skills such as **TypeScript, DOM manipulation, event handling, responsive layouts, and interactive UI components**, while working with modern frontend tooling.
+
+## 👥 Group Project & Collaboration
+
+This project was developed as a **group assignment** during the Frontend Developer program.
+
+Working in a team gave me hands-on experience with **collaborative and agile workflows**, including:
+
+- Working with **GitHub** for version control
+- Creating and reviewing **pull requests**
+- Collaborating through **branches and commits**
+- Coordinating tasks and features within a team
+- Practicing **agile development** in a real project setting
+
+This experience strengthened both my technical workflow and my ability to collaborate effectively in a development team.
 
 ---
 
