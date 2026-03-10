@@ -134,7 +134,7 @@ li {
   }
 }
 
-@include respond(lg) {
+@include respond(md) {
     #cartContainer {
     max-width: 40% !important;
   }
